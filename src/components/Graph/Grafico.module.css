@@ -1,0 +1,9 @@
+.Grafico {
+  color:rgb(177, 88, 162);
+  width: 80%;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18), 0 1px 2px rgba(0, 0, 0, 0.28);
+}

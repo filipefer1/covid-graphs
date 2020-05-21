@@ -1,0 +1,12 @@
+.Container {
+  width: auto;
+  margin: 20px 60px ;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.Estado {
+  font-size: 30px;
+  color: rgb(66, 66, 66);
+  font-weight: bold;
+}

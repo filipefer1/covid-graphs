@@ -1,0 +1,35 @@
+.Card {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.Card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.Header {
+  padding: 10px 25px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.Article {
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 0 0 5px 5px ;
+}
+
+.Number {
+  color: #f9f9f9;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+}
