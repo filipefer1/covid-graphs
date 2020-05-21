@@ -5,9 +5,8 @@ import Cards from "../../components/Cards/Cards";
 import Card from "../../components/Card/Card";
 import Graficos from "../../components/Graficos/Graficos";
 import Grafico from "../../components/Graph/Grafico";
+import Title from "../../components/Title/Title";
 import api from "../../services/api";
-
-import classes from "./Estado.module.css";
 
 import { allFormat, perDayFormat } from "../../utils/formatData";
 
@@ -51,9 +50,7 @@ function Estado() {
     <>
       {isLoaded && (
         <>
-          <div className={classes.Container}>
-            <span className={classes.Estado}>ESTADO</span>
-          </div>
+          <Title>ESTADO</Title>
           <Cards>
             <Card
               title="TOTAL DE CASOS"
